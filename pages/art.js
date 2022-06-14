@@ -9,6 +9,9 @@ export default function Art() {
         <meta name='description' content='Art Portfolio' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Welcome to our Art Portfolio</h1>
+      </main>
     </div>
   );
 }

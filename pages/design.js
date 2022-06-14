@@ -9,6 +9,9 @@ export default function Design() {
         <meta name='description' content='Design Portfolio' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Our Design Offerings</h1>
+      </main>
     </div>
   );
 }

@@ -9,6 +9,9 @@ export default function Cart() {
         <meta name='description' content='Cart' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Cart</h1>
+      </main>
     </div>
   );
 }

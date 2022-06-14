@@ -9,6 +9,11 @@ export default function Web() {
         <meta name='description' content='Web Portfolio' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <main className={styles.main}>
+        <h1 className={styles.title}>
+          Our Web Design and Development Offerings
+        </h1>
+      </main>
     </div>
   );
 }

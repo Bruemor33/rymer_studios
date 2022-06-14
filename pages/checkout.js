@@ -9,6 +9,9 @@ export default function Checkout() {
         <meta name='description' content='Checkout' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <main className={styles.main}>
+        <h1 className={styles.title}>Checkout</h1>
+      </main>
     </div>
   );
 }
